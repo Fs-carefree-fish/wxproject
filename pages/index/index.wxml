@@ -1,0 +1,31 @@
+<view>
+
+<view>
+<view class="logo"><image class='img' src='../img/fsMemo.png'></image>
+假闲鱼的备忘录 
+</view>
+<view class="Email">E-mail:723136370@qq.com
+</view>
+<!-- <view class="Email">Git:
+</view> -->
+</view>
+
+  <view class='textBox'>
+    <textarea class="inputBox"  maxlength=-1
+      bindinput="bindKeyInput" placeholder="点击添加(不多于80个字)" value="{{inputValue}}">
+      <view class="line"></view>
+      <view class="line"></view>
+      <view class="line"></view>
+      <view class="line"></view>
+      <view class="line"></view>
+      <view class="line"></view>
+      <view class="line"></view>
+      <view class="line"></view>
+
+    </textarea>
+  </view>
+
+  <button class="saveBtn" bindtap="saveMemo" hover-class='btn_hover'>保存</button>
+
+</view>
+

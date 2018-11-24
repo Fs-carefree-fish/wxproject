@@ -1,0 +1,60 @@
+.logo{
+  border: 1rpx solid black;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  font-size: 40rpx;
+  display: flex;
+  justify-content: space-between;/*左右两端对齐 */
+  align-items: center;/* 垂直居中 */
+  padding-right: 300rpx;
+  color: gray;
+}
+.img{
+  width: 100rpx;
+  height: 100rpx;
+  margin-left: 50rpx;
+}
+.Email{
+   font-size: 30rpx;
+   color: gray;
+   margin-left:170rpx;
+}
+.textBox{
+  /*水平居中*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+textarea{
+  border: 1px solid gray;
+  width: 80%;
+  height: 700rpx;
+  margin-top: 20%;
+  background-color: rgba(243, 218, 181, 0.808); 
+  border-radius: 6%;
+  padding: 20rpx;
+  line-height: 80rpx;
+  /* background-image: "./img/bg.jpg"; */
+}
+button{
+  margin-top: 10%;
+  width: 80%;
+}
+.btn_hover{
+  background-color:  #1E90FF;
+  color: white;
+}
+.line{
+  border: 1px solid gray;
+  height: 10%;
+  border-left:none;
+  border-right:none;
+  border-top:none;
+  width: 85%;
+  margin-left: 35rpx;
+
+}
+
